@@ -41,7 +41,7 @@ public class Employee
         temp.remove(day, shiftTime); 
     }
 
-    public void clearSchedule(int scheduleNumber)
+    /**public void clearSchedule(int scheduleNumber)
     {
         Schedule temp = (Schedule)scheduleHolder.get(scheduleNumber);
         temp.clear();
