@@ -41,12 +41,12 @@ public class Employee
         temp.remove(day, shiftTime); 
     }
 
-    /**public void clearSchedule(int scheduleNumber)
+    public void clearSchedule(int scheduleNumber)
     {
         Schedule temp = (Schedule)scheduleHolder.get(scheduleNumber);
         temp.clear();
     }
-
+/**
     public boolean doesShiftExist(int day, TimeSpan shiftTime, int scheduleNumber)
     {
         Schedule tempSch = (Schedule)scheduleHolder.get(scheduleNumber);
