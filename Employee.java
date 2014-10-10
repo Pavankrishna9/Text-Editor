@@ -46,7 +46,7 @@ public class Employee
         Schedule temp = (Schedule)scheduleHolder.get(scheduleNumber);
         temp.clear();
     }
-/**
+
     public boolean doesShiftExist(int day, TimeSpan shiftTime, int scheduleNumber)
     {
         Schedule tempSch = (Schedule)scheduleHolder.get(scheduleNumber);
@@ -59,7 +59,7 @@ public class Employee
         }
         return false;
     }
-
+/**
     public ArrayList<Object> getDaySchedule(int day, int scheduleNumber)
     {
         Schedule temp = (Schedule)scheduleHolder.get(scheduleNumber);
