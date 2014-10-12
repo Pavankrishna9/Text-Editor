@@ -59,7 +59,7 @@ public class Employee
         }
         return false;
     }
-
+/**
     public ArrayList<Object> getDaySchedule(int day, int scheduleNumber)
     {
         Schedule temp = (Schedule)scheduleHolder.get(scheduleNumber);
