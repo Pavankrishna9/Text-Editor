@@ -11,7 +11,7 @@ public class TimeSpan
         setTime(tIn, tOut);
         timeSpanFilled = false;
     }
-
+/**
     public TimeSpan(double tIn, double tOut, String pos)
     {
         setTime(tIn, tOut);
