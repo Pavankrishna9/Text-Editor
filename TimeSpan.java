@@ -54,15 +54,8 @@ public class TimeSpan
         return timeSpanFilled; 
     }
 
-    public void setFilled()
-    {
-        timeSpanFilled = true;
-    }
-
-    public void setEmpty()
-    {
-        timeSpanFilled = false;
-    }
+   
+    
 
     private double timeCheck(double time)
     {

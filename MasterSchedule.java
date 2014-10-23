@@ -79,11 +79,7 @@ public class MasterSchedule extends Schedule
         for (int i = 0; i < 7; i++)
         {
             ArrayList<Object> dayList = getDayList(i);
-            for (Object temp : dayList)
-            {
-                TimeSpan span = (TimeSpan)temp; 
-                span.setEmpty();
-            }
+            
         }
     }
 }

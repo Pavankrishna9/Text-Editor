@@ -88,9 +88,6 @@ public class Schedule
     {
        if (shiftOne.getTimeIn() >= shiftTwo.getTimeIn() && shiftOne.getTimeIn() <= shiftTwo.getTimeOut()) 
             return true;
-       else if (shiftOne.getTimeOut() <= shiftTwo.getTimeOut() && shiftOne.getTimeOut() >= shiftTwo.getTimeIn())
-            return true;
-       else
-            return false;
+       
     }
 }
