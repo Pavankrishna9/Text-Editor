@@ -13,8 +13,6 @@ public class Setup
             System.out.println("-----------------------");
             try{
                 empList.add(makeEmp());
-            }catch(Exception e){
-                System.out.println("Employee wasn't properly entered.");
             }
         }
     }
