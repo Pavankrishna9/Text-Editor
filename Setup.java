@@ -11,9 +11,7 @@ public class Setup
         {
             System.out.println("Employee Number " + i);
             System.out.println("-----------------------");
-            try{
-                empList.add(makeEmp());
-            }
+            
         }
     }
 
