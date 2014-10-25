@@ -12,12 +12,6 @@ public class TimeSpan
         timeSpanFilled = false;
     }
 /**
-    public TimeSpan(double tIn, double tOut, String pos)
-    {
-        setTime(tIn, tOut);
-        
-    }
-
     public void setTime(double tIn, double tOut)
     {
         if (inBeforeOut(tIn, tOut))
