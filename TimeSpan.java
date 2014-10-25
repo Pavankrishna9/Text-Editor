@@ -15,7 +15,7 @@ public class TimeSpan
     public TimeSpan(double tIn, double tOut, String pos)
     {
         setTime(tIn, tOut);
-        setPosition(pos);
+        
     }
 
     public void setTime(double tIn, double tOut)
