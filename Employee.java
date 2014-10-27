@@ -41,7 +41,7 @@ public class Employee
         temp.remove(day, shiftTime); 
     }
 
-    public void clearSchedule(int scheduleNumber)
+    
 
     public boolean doesShiftExist(int day, TimeSpan shiftTime, int scheduleNumber)
     {
