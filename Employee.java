@@ -79,8 +79,7 @@ public class Employee
             }
         }
 
-        System.out.println("[Shifts Taken]");
-        System.out.println("-----------------------");
+        
 /**
         for (int i = 0; i < 7; i++)
         {
