@@ -7,6 +7,7 @@ public class Setup
     {
         String prompt = "How many employees do you want to add?";
         int numberOfEmps = Integer.parseInt(getInput(prompt));
+/**
         for (int i = 0; i < numberOfEmps; i++)
         {
             System.out.println("Employee Number " + i);
@@ -14,7 +15,7 @@ public class Setup
             
         }
     }
-
+**/
     public void removeEmployee(ArrayList<Object> empList)
     {
         // if no employees, need to return or something
