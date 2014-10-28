@@ -10,7 +10,7 @@ public class Setup
         for (int i = 0; i < numberOfEmps; i++)
         {
             System.out.println("Employee Number " + i);
-            System.out.println("-----------------------");
+            
             
         }
     }
