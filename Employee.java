@@ -65,7 +65,9 @@ public class Employee
     {
         System.out.println("----------------------------------------------");
         System.out.println(firstName + " " + lastName);
-        System.out.println("[Availability]");
+        
+
+
         System.out.println("-----------------------");
         for (int i = 0; i < 7; i++)
         {
